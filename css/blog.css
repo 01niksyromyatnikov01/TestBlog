@@ -1,0 +1,176 @@
+:root {
+  --jumbotron-padding-y: 3rem;
+}
+
+.jumbotron {
+  padding-top: var(--jumbotron-padding-y);
+  padding-bottom: var(--jumbotron-padding-y);
+  margin-bottom: 0;
+  background-color: #fff;
+}
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: calc(var(--jumbotron-padding-y) * 2);
+    padding-bottom: calc(var(--jumbotron-padding-y) * 2);
+  }
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron-heading {
+  font-weight: 300;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+body {
+  background-color: #f8f9fa;
+}
+
+
+
+.button-block {
+  margin-top: 20px;
+  margin-left: 30%;
+  padding: 5px;
+}
+
+.posts-list {
+  margin: 5px 20%;
+  max-height: 570px;
+  min-width: 300px;
+  overflow: auto;
+  padding-top: 5px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.posts-list li {
+  display: block!important;
+  border: 1px solid #00000038;
+}
+
+.addpost-form {
+  margin: 30px 20% 0;
+}
+
+
+
+
+
+.article-paragraph {
+  font-size: 19px;
+  font-family: PT Serif, serif;
+  color: rgba(0, 0, 0, .86);
+  line-height: 1.5em;
+  word-break: break-word;
+  word-wrap: break-word;
+}
+
+.py-4  img {
+  max-width: 90%;
+  max-height: 90%;
+}
+
+.py-4 h1 {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.author_name {
+  font-size: 18px;
+}
+.author_name  .trans-text {
+  color: #000000bd;
+}
+.author_name  .postdate {
+  float: right;
+  color: #000000bd;
+}
+
+.center {
+  margin:0 auto;
+}
+
+#comments_container {
+  display: none;
+}
+
+.commentator {
+  font-size: 16px;
+}
+.comment_text {
+  margin-left: 15px;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.comment_info {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+}
+.comment_info:hover {
+  background: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+#add_comment_block {
+  padding: 0 0 50px;
+}
+#add_comment_block  textarea {
+  font-size: 17px;
+  line-height: 1.2em;
+  word-break: break-word;
+  resize: none;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+#add_comment_block  button{
+  float: right;
+  margin: 5px 30px 0 0;
+}
+
+#add_comment_block  input {
+  border-radius: 0!important;
+}
+
+.form-group  textarea {
+  font-size: 17px;
+  line-height: 1.2em;
+  word-break: break-word;
+  resize: none;
+  border: 1px solid #89756dc2;
+}
+
+
+.error-message {
+  position: absolute;
+  top: 150px;
+  left: 50px;
+}
+
+
+
+i {
+  color: #898686;
+}
+i:hover {
+  color: #000;
+  cursor: pointer;
+}
