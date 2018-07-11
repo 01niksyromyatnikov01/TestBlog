@@ -65,6 +65,11 @@ body {
   border: 1px solid #00000038;
 }
 
+.posts-list img {
+  max-width: 90%;
+  max-height: 90%;
+}
+
 .addpost-form {
   margin: 30px 20% 0;
 }
